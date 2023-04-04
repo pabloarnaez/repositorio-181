@@ -5,19 +5,18 @@
    }
 
 header{
-    min-height: 100vh;
-    display: flex;
+    min-height: 90vh;
+    display: block;
     background-image: url(../images/fondo-piscina-vacia-agua.jpg);
-    background-position: 0% 60%; 
+    background-position: 0% 110%; 
     background-repeat: no-repeat;
-    background-size: 100vw 1800px;
+    background-size: 100vw 1000px;
     padding-top: 50px;
    }
 
 
 .nav-bg{
     height: 50px;
-    width: 100vw;
     background-color: #1F3CA3;
     display: flex;
     align-items: center;
@@ -26,25 +25,25 @@ header{
     justify-content: space-between;
 }
 
-
 .logo{    
     display:flex;
     height: 80px;
     width: auto;
-    
-   
 }
+     
 .navegador-principal{
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
-
 }
+
 .navegador-principal a{
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
     text-decoration: solid;
     justify-content: space-evenly;
+    
 }
 
 .button-registro{
@@ -65,8 +64,46 @@ header{
     border-color: whitesmoke;
     border-radius: 10px;
 }
+.ventana{
+    margin: 90px 150px 90px 150px;
+    display:flex;
+    height: 47vh;
+    width: auto;
+    background-color: rgba(252, 246, 246, 0.6);
+    }
+
+.imagen-recuadro{
+   width: 200vw;
+   position: -800px;
+   overflow:hidden;
+}
+
+.recuadro{
+    display: block;
+    margin: 30px;
+    justify-items: right;
+    }
+
+.recuadro h1{
+    color: #1F3CA3;
+    align-items:center;
+    text-align:right;
+    text-decoration: solid;
+    font-size: 40px;
+    }
+
+.recuadro p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size:16px;
+    text-align:justify;
+    
+    
+}
+
 
 main{
+    
     margin: 0 150px;
     background-color: whitesmoke;
     min-height: 90%;
