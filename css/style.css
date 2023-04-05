@@ -12,6 +12,7 @@ header{
     background-repeat: no-repeat;
     background-size: 100vw 1000px;
     padding-top: 50px;
+    box-shadow: 0 15 20 0 rgba(5, 2, 2, 0.8);
    }
 
 
@@ -21,7 +22,7 @@ header{
     display: flex;
     align-items: center;
     padding: 0 150px;
-    box-shadow: 0 20 20 0 rgba(5, 2, 2, 0.8);
+    box-shadow: 0 10 20 0 rgba(5, 2, 2, 0.8);
     justify-content: space-between;
 }
 
@@ -35,6 +36,7 @@ header{
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
+    gap: 100px;
 }
 
 .navegador-principal a{
@@ -44,12 +46,14 @@ header{
     text-decoration: solid;
     justify-content: space-evenly;
     
+    
 }
 
 .button-registro{
     display: flex;
     align-items: center;
     padding-left: 15px;
+    gap: 12px;
 }
 
 .login-button{
@@ -97,17 +101,14 @@ header{
     text-decoration: none;
     font-size:16px;
     text-align:justify;
-    
-    
 }
 
-
-main{
-    
+    main{
     margin: 0 150px;
     background-color: whitesmoke;
     min-height: 90%;
 }
+
 footer{
     padding: 0 150px;
     background-color: #1F3CA3;
