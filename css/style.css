@@ -12,7 +12,7 @@ header{
     background-repeat: no-repeat;
     background-size: 100vw 1000px;
     padding-top: 50px;
-    box-shadow: 0 15 20 0 rgba(5, 2, 2, 0.8);
+    box-shadow: 0 15 20 0 rgba(5, 2, 2, 80%);
    }
 
 
@@ -22,7 +22,7 @@ header{
     display: flex;
     align-items: center;
     padding: 0 150px;
-    box-shadow: 0 10 20 0 rgba(5, 2, 2, 0.8);
+    box-shadow: 0 10 20 0 rgba(5, 2, 2, 30%);
     justify-content: space-between;
 }
 
@@ -69,7 +69,7 @@ header{
     border-radius: 10px;
 }
 .ventana{
-    margin: 90px 150px 90px 150px;
+    margin: 90px 150px 0 150px;
     display:flex;
     height: 47vh;
     width: auto;
@@ -78,9 +78,14 @@ header{
 
 .imagen-recuadro{
    width: 200vw;
-   position: -800px;
    overflow:hidden;
 }
+
+.img-m-picinas{
+position: relative;
+left: -80px;
+}
+
 
 .recuadro{
     display: block;
@@ -104,10 +109,37 @@ header{
 }
 
     main{
+        display: inline;
     margin: 0 150px;
-    background-color: whitesmoke;
     min-height: 90%;
 }
+.somos{
+    margin: 10;
+}
+
+.bg-abstract{
+    padding: 0;
+    display: flex;
+    position: relative;
+    left: -150px; 
+    width: 98vw;
+    height: 100vh;
+    overflow:hidden;
+}
+    .img-abstract{
+        image-resolution: -50%;
+position: relative;
+left:-3000px;
+top: -5000px;
+    }
+
+.cards-planes{
+    margin: 0;
+    padding: 20vh 0 ;
+}
+
+
+
 
 footer{
     padding: 0 150px;
