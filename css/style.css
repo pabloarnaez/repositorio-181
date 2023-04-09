@@ -1,22 +1,22 @@
-*{    
+* {
     margin: 0;
     padding: 0;
-    font-family:  'Josefin Sans', sans-serif;
-   }
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
 
-header{
+header {
     min-height: 90vh;
     display: block;
     background-image: url(../images/fondo-piscina-vacia-agua.jpg);
-    background-position: 0% 110%; 
+    background-position: 0% 110%;
     background-repeat: no-repeat;
     background-size: 100vw 1000px;
     padding-top: 50px;
     box-shadow: 0 15 20 0 rgba(5, 2, 2, 80%);
-   }
+}
 
-
-.nav-bg{
+.nav-bg {
     height: 50px;
     background-color: #1F3CA3;
     display: flex;
@@ -26,37 +26,35 @@ header{
     justify-content: space-between;
 }
 
-.logo{    
-    display:flex;
+.logo {
+    display: flex;
     height: 80px;
     width: auto;
 }
-     
-.navegador-principal{
+
+.navegador-principal {
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
     gap: 100px;
 }
 
-.navegador-principal a{
+.navegador-principal a {
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
     text-decoration: solid;
     justify-content: space-evenly;
-    
-    
 }
 
-.button-registro{
+.button-registro {
     display: flex;
     align-items: center;
     padding-left: 15px;
     gap: 12px;
 }
 
-.login-button{
+.login-button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     height: 30px;
@@ -68,82 +66,124 @@ header{
     border-color: whitesmoke;
     border-radius: 10px;
 }
-.ventana{
+
+.ventana {
     margin: 90px 150px 0 150px;
-    display:flex;
+    display: flex;
     height: 47vh;
     width: auto;
     background-color: rgba(252, 246, 246, 0.6);
-    }
-
-.imagen-recuadro{
-   width: 200vw;
-   overflow:hidden;
 }
 
-.img-m-picinas{
-position: relative;
-left: -80px;
+.imagen-recuadro {
+    width: 200vw;
+    overflow: hidden;
 }
 
+.img-m-picinas {
+    position: relative;
+    left: -80px;
+}
 
-.recuadro{
+.recuadro {
     display: block;
     margin: 30px;
     justify-items: right;
-    }
-
-.recuadro h1{
-    color: #1F3CA3;
-    align-items:center;
-    text-align:right;
-    text-decoration: solid;
-    font-size: 40px;
-    }
-
-.recuadro p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-    font-size:16px;
-    text-align:justify;
 }
 
-    main{
-        display: inline;
+.recuadro h1 {
+    color: #1F3CA3;
+    align-items: center;
+    text-align: right;
+    text-decoration: solid;
+    font-size: 40px;
+}
+
+.recuadro p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: justify;
+}
+
+main {
+    display: inline;
     margin: 0 150px;
     min-height: 90%;
 }
-.somos{
+
+.somos {
     margin: 10;
 }
 
-.bg-abstract{
+.bg-abstract {
     padding: 0;
     display: flex;
     position: relative;
-    left: -150px; 
+    left: -150px;
     width: 98vw;
     height: 100vh;
-    overflow:hidden;
+    overflow: hidden;
 }
-    .img-abstract{
-        image-resolution: -50%;
-position: relative;
-left:-3000px;
-top: -5000px;
-    }
 
-.cards-planes{
+.img-abstract {
+    image-resolution: -50%;
+    position: relative;
+    left: -3000px;
+    top: -5000px;
+}
+
+.cards-planes {
     margin: 0;
-    padding: 20vh 0 ;
+    padding: 20vh 0;
 }
 
-
-
-
-footer{
-    padding: 0 150px;
+footer {
     background-color: #1F3CA3;
+    width: 100%;
+    height: 17.75rem;
 }
 
+.grupo-1 .box-logo figure img {
+    width: 8.6875rem;
+    height: 3.375rem;
+    margin-top: 1.5rem;
+    margin-left: 6.5rem;
+    margin-bottom: 2rem;
+}
 
+.grupo-2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.grupo-2 .box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-right: -3rem;
+    text-decoration: none;
+}
+
+.grupo-2 .box a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 2rem;
+}
+
+.grupo-2 .box a i {
+    margin-right: 12px;
+    font-size: 150%;
+}
+
+.grupo-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.bi-geo-alt {
+    margin-left: -2.3rem;
+}
