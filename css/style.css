@@ -5,6 +5,9 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+
+/* HEADER Y NAVEGADOR */
+
 header {
     min-height: 90vh;
     display: block;
@@ -106,6 +109,14 @@ header {
     text-align: justify;
 }
 
+
+
+
+
+
+
+/* MAIN */
+
 main {
     display: inline;
     margin: 0 150px;
@@ -116,17 +127,31 @@ main {
     margin: 10;
 }
 
+
+
+
+
+
+
+/* SECCION PLANES */
+.planes{
+    margin: 0;
+    width: 100vw;
+    min-height: 90vh;
+
+}
+
 .bg-abstract {
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
-    position: relative;
-    left: -150px;
-    width: 98vw;
+    width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: clip;
 }
 
 .img-abstract {
+    margin:0;
     image-resolution: -50%;
     position: relative;
     left: -3000px;
@@ -137,6 +162,11 @@ main {
     margin: 0;
     padding: 20vh 0;
 }
+
+
+
+
+/* FOOTER */
 
 footer {
     background-color: #1F3CA3;
@@ -264,6 +294,8 @@ footer {
     width: 40vw;
     padding-left: 10px;
 }
+
+
 #boton__registrar{
     padding: 10px 40px;
     display: flex;
@@ -288,4 +320,36 @@ footer {
     font-size: 20px;
     align-items: center;
     justify-content: center;
+}
+
+
+/* SECCION CONTACTOS */
+
+.contactos{
+   display: flex;
+   
+}
+#dad-son{
+    position: relative;
+    image-resolution: -50%;
+    width: 90vh;
+    height: 45vh;
+    overflow: clip;
+}
+
+.card-conts{
+    border: 10x; 
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.8);
+    width: 25vw;
+    min-height: 70vh;
+    display: flex;
+    flex-direction:column;
+    border-color: #1F3CA3;
+    align-items: center;
+    position: relative;
+    top: 25vh;
+    left: 5vw;
+
 }
