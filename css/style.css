@@ -9,29 +9,34 @@
 /* HEADER Y NAVEGADOR */
 
 header {
-    min-height: 90vh;
-    display: block;
+    width: 100vw;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
     background-image: url(../images/fondo-piscina-vacia-agua.jpg);
-    background-position: 0% 110%;
     background-repeat: no-repeat;
-    background-size: 100vw 1000px;
-    padding-top: 50px;
-    box-shadow: 0 15 20 0 rgba(5, 2, 2, 80%);
+    background-size: 110%;
+    image-resolution: calc(-50%);
+    background-position: 0 -950px;
+    overflow: hidden;
 }
 
 .nav-bg {
-    height: 50px;
+    position: fixed;
+    width: 100vw;
+    height: auto;
     background-color: #1F3CA3;
     display: flex;
     align-items: center;
-    padding: 0 150px;
-    box-shadow: 0 10 20 0 rgba(5, 2, 2, 30%);
+    padding:  0 150px;
+    box-shadow: 0 10 20 0 rgba(5, 2, 2, 0.8);
     justify-content: space-between;
 }
 
 .logo {
+    padding: 10px;
     display: flex;
-    height: 80px;
+    height: 10vh;
     width: auto;
 }
 
@@ -71,26 +76,31 @@ header {
 }
 
 .ventana {
-    margin: 90px 150px 0 150px;
+    margin:  200px 150px 100px 150px;
     display: flex;
-    height: 47vh;
+    height: auto;
     width: auto;
-    background-color: rgba(252, 246, 246, 0.6);
+    background-color: rgba(252, 246, 246, 0.80);
 }
 
 .imagen-recuadro {
-    width: 200vw;
+    height: auto;
+    width: 300vw;
+    display: flex;
     overflow: hidden;
+
 }
 
 .img-m-picinas {
-    position: relative;
-    left: -80px;
+    size-adjust: 200%;
+
+    
+   
 }
 
 .recuadro {
     display: block;
-    margin: 30px;
+    padding: 30px;
     justify-items: right;
 }
 
@@ -118,9 +128,8 @@ header {
 /* MAIN */
 
 main {
-    display: inline;
     margin: 0 150px;
-    min-height: 90%;
+    min-height: 90vh;
 }
 
 .somos {
@@ -134,28 +143,19 @@ main {
 
 
 /* SECCION PLANES */
+
 .planes{
-    margin: 0;
-    width: 100vw;
-    min-height: 90vh;
-
-}
-
-.bg-abstract {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
+    display:flex;
+    
+}    
+#img-abstract {
     width: 100vw;
     height: 100vh;
-    overflow: clip;
-}
+    margin: 0 -150px;
+    justify-content: center;
+    align-items: center;
+    image-resolution: calc(-50%);
 
-.img-abstract {
-    margin:0;
-    image-resolution: -50%;
-    position: relative;
-    left: -3000px;
-    top: -5000px;
 }
 
 .cards-planes {
@@ -326,30 +326,31 @@ footer {
 /* SECCION CONTACTOS */
 
 .contactos{
+   margin: 20 150;
+   max-height: 50vh;
    display: flex;
+   justify-content: space-between;
+   align-items: center;
    
 }
+
 #dad-son{
-    position: relative;
-    image-resolution: -50%;
-    width: 90vh;
+    image-resolution: (-50%);
+    width: 85vh;
     height: 45vh;
-    overflow: clip;
 }
 
 .card-conts{
-    border: 10x; 
     padding: 30px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.8);
-    width: 25vw;
+    width: 30vw;
     min-height: 70vh;
     display: flex;
     flex-direction:column;
-    border-color: #1F3CA3;
+    border: solid 3px #1F3CA3;
     align-items: center;
     position: relative;
-    top: 25vh;
-    left: 5vw;
-
+    top: 10vh;
+    
 }
