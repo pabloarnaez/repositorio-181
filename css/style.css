@@ -385,11 +385,33 @@ footer {
     left: 109px;
     padding:20px;
     justify-content: center;
-    
-
-
-
 }
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 82vw;
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.cards-planes{
+    position: absolute;
+    width: 275px;
+    height: 437px;
+    left: 243px;
+    top: 1440px;
+
+    background: #39A3AD;
+    box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
 #boton{
     border-radius: 0.56rem;
     background-color:#39A3AD ;
@@ -414,6 +436,24 @@ font-size: 1.5rem;
 margin-bottom: 10px ;
 }
 
+
+*planes especiales hechos a tu medida*
+h1{
+position: absolute;
+width: 948px;
+height: 144px;
+left: 243px;
+top: 1344px;
+
+font-family: 'Josefin Sans';
+font-style: italic;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
 
 
     
