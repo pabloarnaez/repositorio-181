@@ -355,3 +355,65 @@ footer {
     top: 10vh;
     
 }
+/* seccion cards */
+.container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 82vw;
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.card {
+    background-color: #50BDFA;
+    width: 281px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.25s;
+    top: 906px;
+    left: 109px;
+    padding:20px;
+    justify-content: center;
+    
+
+
+
+}
+#boton{
+    border-radius: 0.56rem;
+    background-color:#39A3AD ;
+    box-shadow: 0 8px 8px 0  rgba(0, 0, 0, 0.5);
+    color:#ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+    width: 11.8rem;
+    height: 1.9rem;
+    align-items: center;
+    border: none;
+    
+    
+}
+.card i{
+    font-size: 3.5rem;
+    color: white;
+}
+.card_cont h3{
+color: #ffffff;
+font-size: 1.5rem;
+margin-bottom: 10px ;
+}
+
+
+
+    
