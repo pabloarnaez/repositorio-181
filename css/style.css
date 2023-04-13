@@ -23,6 +23,7 @@ header {
 
 .nav-bg {
     position: fixed;
+    z-index: 2;
     width: 100vw;
     height: auto;
     background-color: #1F3CA3;
