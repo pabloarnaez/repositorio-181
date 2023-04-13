@@ -83,7 +83,7 @@
                         que un lector se distraerá
                         con el contenido
                         legible de una página </p><br>
-                        <button id ="boton">Leer mas</button>
+                    <button id="boton">Leer mas</button>
                 </div>
             </div>
 
@@ -96,7 +96,7 @@
                         que un lector se distraerá
                         con el contenido
                         legible de una página </p><br>
-                        <button id ="boton">Leer mas</button>
+                    <button id="boton">Leer mas</button>
                 </div>
             </div>
 
@@ -109,7 +109,7 @@
                         que un lector se distraerá
                         con el contenido
                         legible de una página </p><br>
-                        <button id ="boton">Leer mas</button>
+                    <button id="boton">Leer mas</button>
                 </div>
             </div>
             <div class="card">
@@ -121,7 +121,7 @@
                         que un lector se distraerá
                         con el contenido
                         legible de una página</p><br>
-                    <button id ="boton">Leer mas</button>
+                    <button id="boton">Leer mas</button>
                 </div>
             </div>
         </div>
@@ -152,16 +152,21 @@
                     alt="papa nadando con su hija">
             </div>
             <div class="card-conts">
-                <h1>Contactanos</h1>
-                <img class="Contacto" src="" alt="">
-                <input class="Contacto" type="text" placeholder="Coloque su nombre"><br>
-                <img class="email" src="" alt="">
-                <input type="email" placeholder="Coloque su e-mail"><br>
-                <img class="phone" src="" alt="">
-                <input type="phone" placeholder="coloque su telefono"><br>
-                <input class="mensaje" type="text" name="texto" id="mensaje">
-                <button id="envio-Conts">Enviar</button>
-                </button>
+                <h1>CONTACTANOS</h1>
+                <form action="">
+                    <label for="nombre">Nombre y Apellido:</label><br>
+                    <i class="bi bi-person"></i>
+                    <input type="text" name="Nombre" id="nombre" placeholder="Alberto Zorrilla"><br>
+                    <label for="email">E-mail:</label><br>
+                    <i class="bi bi-envelope"></i>
+                    <input type="email" name="E-mail" placeholder="email@email.com" id="email" required><br>
+                    <label for="telefono">Teléfono:</label><br>
+                    <i class="bi bi-telephone"></i>
+                    <input type="tel" name="Teléfono" id="telefono" placeholder="+5490123456789"><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea name="Mensaje" id="mensaje" rows="7" cols="45" placeholder="Escribe aquí tu mensaje"></textarea><br>
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
             </div>
         </section>
     </main>
