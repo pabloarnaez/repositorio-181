@@ -503,8 +503,8 @@ display:block;
 .planes{
     position: relative;
     align-items: center;
-    width: auto
-    height: 100vh
+    width: auto;
+    height: 100vh;
 
 }
     
