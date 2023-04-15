@@ -486,45 +486,64 @@ footer {
 }
 
 
-*planes especiales hechos a tu medida*
+/* planes especiales hechos a tu medida */
 
 .container-cards h1{
-width: 948px;
-height: 144px;
-font-family: 'Josefin Sans';
-font-style: italic;
-font-weight: 700;
-font-size: 48px;
-color: #FFFFFF;
-display:block;
-}
-.container-cards{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 2;
-    flex-direction: row;
-}
-.cards-planes{
-    display: flex;
-    width: 275px;
-    height: 437px;
-    background: #39A3AD;
-    box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.25);
-}
-.bg-abstract{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    position: absolute;
-
-}
-.planes{
-    position: relative;
-    align-items: center;
-    width: auto;
-    height: 100vh;
-
-}
+    width: 948px;
+    height: 144px;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    display:block
+    }
+    .container-cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 2;
+        flex-direction: row;
+        gap: 20px; 
+        color:black;
+        
+    }
+    .cards-planes{
+        display: flex;
+        width: 275px;
+        height: 437px;
+        background: #39A3AD;
+        box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.25);
+        gap: 20px;  
+        
+       
+        
+    }
+    .bg-abstract{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        position: absolute;
+        color: #FFFFFF;
+        
     
+    }
+    .planes{
+        position: relative;
+        align-items: center;
+        width: auto;
+        height: 100vh;
+    
+    }
+    .container-cards h3{
+        color: #1F3CA3;
+        font-size: 35px;
+        width: 212px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        font-family: 'Calibri';
+        
+    }
+        
