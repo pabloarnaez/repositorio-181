@@ -486,6 +486,7 @@ footer {
 }
 
 
+<<<<<<< Updated upstream
 /* planes especiales hechos a tu medida */
 
 .container-cards h1{
@@ -546,3 +547,50 @@ footer {
         
     }
         
+=======
+
+
+
+/* PLANES */
+
+*planes especiales hechos a tu medida*
+
+.container-cards h1{
+width: 948px;
+height: 144px;
+font-family: 'Josefin Sans';
+font-style: italic;
+font-weight: 700;
+font-size: 48px;
+color: #FFFFFF;
+display:block;
+}
+.container-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    flex-direction: row;
+}
+.cards-planes{
+    display: flex;
+    width: 275px;
+    height: 437px;
+    background: #39A3AD;
+    box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.25);
+}
+.bg-abstract{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    position: absolute;
+
+}
+.planes{
+    position: relative;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+}
+>>>>>>> Stashed changes

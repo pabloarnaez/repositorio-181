@@ -1,0 +1,57 @@
+[
+    {
+        "nombre": "Cloro en pastillas",
+        "descripcion": "Pastillas de cloro para la desinfección del agua de la piscina.",
+        "precio": 10.99,
+        "imagen": "https://ejemplo.com/imagenes/cloro_pastillas.jpg"
+    },
+    {
+        "nombre": "Alguicida",
+        "descripcion": "Tratamiento para prevenir y eliminar el crecimiento de algas en el agua de la piscina.",
+        "precio": 15.50,
+        "imagen": "https://ejemplo.com/imagenes/alguicida.jpg"
+    },
+    {
+        "nombre": "Clarificador de agua",
+        "descripcion": "Producto para mejorar la claridad del agua de la piscina, eliminando partículas suspendidas.",
+        "precio": 8.75,
+        "imagen": "https://ejemplo.com/imagenes/clarificador_agua.jpg"
+    },
+    {
+        "nombre": "Limpiador de fondo",
+        "descripcion": "Dispositivo automático para limpiar el fondo de la piscina, eliminando hojas, insectos y otros desechos.",
+        "precio": 199.99,
+        "imagen": "https://ejemplo.com/imagenes/limpiador_fondo.jpg"
+    },
+    {
+        "nombre": "Cepillo de piscina",
+        "descripcion": "Cepillo de cerdas resistentes para limpiar las paredes y el fondo de la piscina.",
+        "precio": 12.99,
+        "imagen": "https://ejemplo.com/imagenes/cepillo_piscina.jpg"
+    },
+   
+    {
+        "nombre": "Desincrustante para piscina",
+        "descripcion": "Producto para eliminar las incrustaciones y manchas en las paredes y el fondo de la piscina.",
+        "precio": 24.99,
+        "imagen": "https://ejemplo.com/imagenes/desincrustante_piscina.jpg"
+    },
+    {
+        "nombre": "Floculante",
+        "descripcion": "Químico para agrupar las partículas pequeñas y clarificar el agua de la piscina.",
+        "precio": 9.50,
+        "imagen": "https://ejemplo.com/imagenes/floculante.jpg"
+    },
+    {
+        "nombre": "Kit de pruebas de agua",
+        "descripcion": "Set de pruebas para medir los niveles de cloro, pH, alcalinidad y otros parámetros del agua de la piscina.",
+        "precio": 29.99,
+        "imagen": "https://ejemplo.com/imagenes/kit_pruebas_agua.jpg"
+    },
+    {
+        "nombre": "Red para piscina",
+        "descripcion": "Red de malla fina para recolectar hojas, insectos y otros desechos de la superficie del agua de la piscina.",
+        "precio": 8.99,
+        "imagen": "https://ejemplo.com/imagenes/red_piscina.jpg"
+    }
+]
