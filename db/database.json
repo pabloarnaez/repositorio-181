@@ -1,20 +1,20 @@
 {
     "usuarios": [
       {
-        "usuario": "usuario1",
-        "contrasena": "contrasena1"
+        "usuario": "Brendaduran",
+        "contrasena": "brenda01"
       },
       {
-        "usuario": "usuario2",
-        "contrasena": "contrasena2"
+        "usuario": "Jesusnarvaez",
+        "contrasena": "Jesus02"
       },
       {
-        "usuario": "usuario3",
-        "contrasena": "contrasena3"
+        "usuario": "MarceloChaires",
+        "contrasena": "marcelo03"
       },
       {
-        "usuario": "usuario4",
-        "contrasena": "contrasena4"
+        "usuario": "Pabloarnaez",
+        "contrasena": "pablo04"
       }
     ]
   }

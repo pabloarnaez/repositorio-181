@@ -19,10 +19,12 @@ fetch("../db/database.json")
 
       if (usuarioEncontrado) {
         // Usuario y contraseña válidos, realizar acciones adicionales
-        console.log('Inicio de sesión exitoso');
-      } else {
+        window.open("../pages/bienvenido.html");
+              } else {
         // Usuario y/o contraseña incorrectos, mostrar mensaje de error
-        console.log('Usuario y/o contraseña incorrectos');
+        alert('Usuario y/o contraseña incorrectos. Vuelva a intentarlo');
+         
+        
       }
     });
   })
