@@ -78,7 +78,7 @@ header {
 }
 
 .ventana {
-    margin: 200px 150px 100px 150px;
+    margin: 150px 150px 100px 150px;
     display: flex;
     height: auto;
     width: auto;
@@ -90,14 +90,10 @@ header {
     width: 300vw;
     display: flex;
     overflow: hidden;
-
 }
 
 .img-m-picinas {
     size-adjust: 200%;
-
-
-
 }
 
 .recuadro {
@@ -122,51 +118,109 @@ header {
 }
 
 
-
-
-
-
-
 /* MAIN */
 
 main {
-    margin: 0 150px;
     min-height: 90vh;
 }
 
 .somos {
-    margin: 10;
+    width: auto;
+    padding: 50px 70px 10px 70px;
 }
 
+.somos .quienes-somos h1 {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 36px;
+    color: #1F3CA3;
+}
 
+.somos .familia h2 {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 24px;
+    color: #1F3CA3;
+    padding-bottom: 20px;
+}
 
+.somos .familia h2 span {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #1F3CA3;
+}
 
-
+.somos p {
+    font-family: 'Calibri';
+    text-align: justify;
+    font-size: 20px;
+}
 
 
 /* SECCION PLANES */
 
 .planes {
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 103vh;
 }
 
-#img-abstract {
-    width: 100vw;
-    height: 100vh;
-    margin: 0 -150px;
-    justify-content: center;
-    align-items: center;
-    image-resolution: calc(-50%);
+.planes #img-abstract {
+    width: 100%;
+    height: 100%;
+}
 
+.titulo-planes {
+    padding-top: 16px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans';
+}
+
+.container-cards {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
 }
 
 .cards-planes {
-    margin: 0;
-    padding: 20vh 0;
+    padding: 35px;
+    width: 275px;
+    height: 437px;
+    background-color: #39A3AD;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
+.cards-planes .tipo-plan {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #1F3CA3;
+    margin-top: 5px;
+}
 
+.cards-planes .precio-plan {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cards-planes .lista-servicios li {
+    margin-bottom: 5px;
+}
 
 
 /* FOOTER */
@@ -223,8 +277,6 @@ footer {
 }
 
 
-
-
 /* STYLE DEL LOGIN */
 
 #body-login {
@@ -235,8 +287,6 @@ footer {
     background-position: center;
     background-attachment: fixed;
     display: block;
-
-
 }
 
 #body-login main {
@@ -249,8 +299,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .lg-logo {
@@ -285,7 +333,6 @@ footer {
     font-size: 15px;
     color: black;
     text-decoration: solid;
-
 }
 
 .rg-conteiner input {
@@ -298,7 +345,6 @@ footer {
     width: 40vw;
     padding-left: 10px;
 }
-
 
 #boton__registrar {
     padding: 10px 40px;
@@ -332,10 +378,10 @@ footer {
 .contactos {
     margin-top: 40px;
     margin-bottom: 50px;
-    width: 80vw;
-    max-height: 50vh;
+    width: auto;
+    max-height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -366,6 +412,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin-bottom: -200px;
+    margin-left: 50px;
 }
 
 .form-tittle {
@@ -425,13 +472,11 @@ footer {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    width: 82vw;
+    width: auto;
     overflow: hidden;
     text-align: center;
-    justify-content: space-between;
-
-    
-    
+    justify-content: space-evenly;
+    padding: 50px;
 }
 
 .card {
@@ -441,10 +486,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 10px;
     margin: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: center;
     transition: all 0.25s;
@@ -452,14 +496,9 @@ footer {
     left: 109px;
     padding: 20px;
     justify-content: center;
-    
-
-
-
 }
 
-
-#boton{
+#boton {
     border-radius: 0.56rem;
     background-color: #39A3AD;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
@@ -470,8 +509,6 @@ footer {
     height: 1.9rem;
     align-items: center;
     border: none;
-
-
 }
 
 .card i {
@@ -483,129 +520,4 @@ footer {
     color: #ffffff;
     font-size: 1.5rem;
     margin-bottom: 10px;
-}
-
-
-/* planes especiales hechos a tu medida */
-
-.container-cards h1{
-    
-    width: auto;
-    height: 144px;
-    font-family: 'Josefin Sans';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 5rem;
-    color: #FFFFFF;
-    display:block;
-    }
-    .container-cards{
-        z-index: 2;
-        color:black;
-        width: 100%;
-        display: flex;
-        justify-content:space-around;
-        align-items: center;
-    }
-    .cards-planes{
-        display: flex;
-        width: 275px;
-        height: 437px;
-        background: #39A3AD;
-        box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.25);
-        justify-content: space-between;
-        
-        
-        
-       
-        
-    }
-    .bg-abstract{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap:wrap;
-        position: absolute;
-        color: #FFFFFF;
-        font-size: 2rem;
-        
-    
-    }
-    .planes{
-        position: relative;
-        align-items: center;
-        width: auto;
-        height: 100vh;
-    
-    }
-    .container-cards h3{
-        color: #1F3CA3;
-        font-size: 35px;
-        width: 212px;
-        font-weight: 700;
-        line-height: 24px;
-        text-align: center;
-        font-family: 'Calibri';
-        
-    }
-        
-
-
-
-/* PLANES */
-
-*planes especiales hechos a tu medida*
-
-.container-cards h1{
-width: auto;
-height: 144px;
-font-family: 'Josefin Sans';
-font-style: italic;
-font-weight: 700;
-color: #FFFFFF;
-display:flex;
-}
-.container-cards{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 2;
-    flex-direction: row;
-    
-}
-.cards-planes{
-    display: block;
-    flex-direction:row;
-    width: 275px;
-    height: 437px;
-    background: #39A3AD;
-    box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.25);
-    padding: 30px;
-    align-items: center;
-    justify-content: center;
-}
-.cards-planes h1{
-    display: flex;
-    text-decoration: none;
-    font-style: italic;
-    font-size: 2.5rem;
-    font-weight: 400;
-
-}
-
-.bg-abstract{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    position: absolute;
-
-}
-
-
-.planes{
-    position: relative;
-    align-items: center;
-    width: auto;
-    height: 100vh;
 }
